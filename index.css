@@ -7,11 +7,14 @@ body{
 h1{
     font-size:50px;
 }
+section{
+    margin-bottom: 100px;;
+}
 #welcome{
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom:60px;
+    
     
 }
 .orange-color{
@@ -41,7 +44,24 @@ h1{
 }
 .top-img img{
     width:100%;
-    
-    
-    
+     
+}
+#dream-big{
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.dream-left {
+    width: 50%;
+    text-align: center;
+}
+.dream-left img{
+    width:100%;
+}
+
+.dream-right {
+    width: 50%;
+    text-align: justify;
 }
